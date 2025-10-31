@@ -29,11 +29,14 @@ Object Detection Installation（安裝物件偵測）<br/>
 Testing the Installation（測試安裝）<br/>
 使用 Google Colab 的範例可參閱下方連結：<br/>
 使用 Google Colab 訓練 Tensorflow 物件偵測 API<br/>
+![image](4.png)<br/>
 二、資料收集（Gathering data）<br/>
 2.1<br/>
 打開 Google Chrome 瀏覽器，搜尋並安裝一個名為 Download All Images 的瀏覽器擴充套件。<br/>
+![image](5.png)<br/>
 2.2<br/>
 現在在 Google 上輸入並搜尋你想要的對象，例如「Apple」，點擊「下載所有圖像」的擴充套件按鈕。這樣就能批次下載圖片，通常會自動儲存為一個 .zip 壓縮檔。<br/>
+![image](6.png)<br/>
 
 
 
