@@ -1,5 +1,6 @@
 # tensorflow圖形檢測_使用Google Colab使用Tensorflow進行自定義對象檢測<br/>
 
+![image](1.jpeg)
 在此文章中，我們將使用 Tensorflow 物件偵測 (Object Detection) API 來建立自定義的物件偵測器。我將選擇偵測蘋果果實，但是您可以選擇要偵測自己的自定義對象的任何圖像。<br/>
 
 步驟：<br/>
