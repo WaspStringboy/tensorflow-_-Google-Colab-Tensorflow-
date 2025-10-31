@@ -53,7 +53,7 @@ LabelImg 在每張圖像旁會生成一個 XML 文件，裡面包含了物件名
 ![image](9.png)<br/>
 克隆之後進入目錄:<br/>
 ![image](10.png)<br/>
-
+![image](11.png)<br/>
 
 
 
