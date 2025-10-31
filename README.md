@@ -55,25 +55,40 @@ LabelImg 在每張圖像旁會生成一個 XML 文件，裡面包含了物件名
 克隆之後進入目錄:<br/>
 ![image](10.png)<br/>
 ![image](11.png)<br/>
+
 四、Generating TFRecords for training<br/>
 現在,將圖像檔案的70%複製到訓練資料夾圖像/訓練中,其餘30%複製到測試資料夾中。<br/>
 在標記了影像的情況下,我們需要建立TFRecords用作輸入資料以訓練物件偵測器。為了創建TFRecords,我們將使用<br/>
 datitran/raccoon_datasetgithub.com<br/>
+
 ![image](12.png)<br/>
+
 兩個腳本。即xml_to_csv.py和generate_tfrecord.py檔。<br/>
+
 ![image](13.png)<br/>
+
 目錄:<br/>
+
 ![image](14.png)<br/>
 ![image](15.png)<br/>
+
 現在在該資料夾中,我們可以透過開啟命令列並鍵入以下內容,將XML檔案轉換為訓練標籤.csv和test_label.csv:<br/>
+
 ![image](16.png)<br/>
+
 它們在資料目錄中會建立兩個檔案。一個叫做test_labels.csv,另一個叫做train_labels.csv.<br/>
 在將新建立的檔案轉換為TFRecords之前,我們需要更改generate_tfrecords.py檔案中的幾行。<br/>
+
 ![image](17.png)<br/>
+
 如你有多類標記:<br/>
+
 ![image](18.png)<br/>
+
 現在,您可以透過鍵入以下內容來產生TFRecords:<br/>
+
 ![image](19.png)<br/>
+
 這兩個指令產生一個train.record和一個test.record檔,可用來訓練我們的物件偵測器。<br/>
 五、Configuring training<br/>
 訓練之前，我們要做的最後一件事是create a label map and a training configuration file.<br/>
@@ -81,9 +96,13 @@ datitran/raccoon_datasetgithub.com<br/>
 The label map maps: an id to a name.<br/>
 I have already created a label map file for my training. It looks like this:<br/>
 編輯: object-detection.pbtxt<br/>
+
 ![image](20.png)<br/>
+
 如果您使用多個類，清尊循此模式<br/>
+
 ![image](21.png)<br/>
+
 每個類別的ID號碼應與generate_tfrecord.py檔案中指定的ID相符。<br/>
 七、Creating a training configuration<br/>
 我們將在Google Colab中訓練我們的模型。<br/>
