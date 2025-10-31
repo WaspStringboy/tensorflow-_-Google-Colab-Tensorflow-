@@ -44,14 +44,15 @@ LabelImg 是用於影像標註的工具。<br/>
 ![image](7.png)<br/>
 在不同的環境中安裝 LabelImg 的方法可能不同，可以參考以下網站：<br/>
 👉 https://github.com/tzutalin/labelImg<br/>
+![image](8.png)<br/>
 上面的內容並非所有圖片均完成標註，它正在進行中。<br/>
 LabelImg 在每張圖像旁會生成一個 XML 文件，裡面包含了物件名稱與邊界框的座標資訊。<br/>
 這裡大約有 100 張圖片。<br/>
 現在需要克隆儲存庫：<br/>
 👉 https://github.com/zjgulai/Tensorflow-Object-Detection-API-With-Custom-Dataset<br/>
-
-使用以下命令克隆：<br/>
-完成後進入該目錄即可進行後續操作。<br/>
+![image](9.png)<br/>
+克隆之後進入目錄:<br/>
+![image](10.png)<br/>
 
 
 
