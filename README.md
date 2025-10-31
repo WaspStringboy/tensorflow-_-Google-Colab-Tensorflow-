@@ -17,4 +17,26 @@
 2.Ubuntu 18.04 / Google Colab。<br/>
 3.Tensorflow / Tensorflow-gpu。<br/>
 4.克隆 Tensorflow 模型儲存庫。<br/>
-![image](2.png)
+![image](2.png)<br/>
+1. 檢查環境<br/>
+
+Protobuf 編譯：TensorFlow 物件偵測 API 使用 Protobufs 來配置模型與訓練參數。在使用該框架之前，必須先編譯 Protobuf 檔案。<br/>
+這可以透過從 tensorflow/models/research/ 目錄運行以下命令來完成：<br/>
+![image](3.png)<br/>
+將系統路徑加入 PYTHONPATH<br/>
+在 Google Colab 上運行時，應將 Tfmodels/research 和 slim 目錄新增到 PYTHONPATH。<br/>
+Object Detection Installation（安裝物件偵測）<br/>
+Testing the Installation（測試安裝）<br/>
+使用 Google Colab 的範例可參閱下方連結：<br/>
+使用 Google Colab 訓練 Tensorflow 物件偵測 API<br/>
+二、資料收集（Gathering data）<br/>
+2.1<br/>
+打開 Google Chrome 瀏覽器，搜尋並安裝一個名為 Download All Images 的瀏覽器擴充套件。<br/>
+2.2<br/>
+現在在 Google 上輸入並搜尋你想要的對象，例如「Apple」，點擊「下載所有圖像」的擴充套件按鈕。這樣就能批次下載圖片，通常會自動儲存為一個 .zip 壓縮檔。<br/>
+
+
+
+
+
+
