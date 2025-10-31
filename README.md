@@ -16,4 +16,4 @@
 2.Ubuntu 18.04 / Google Colab。<br/>
 3.Tensorflow / Tensorflow-gpu。<br/>
 4.克隆 Tensorflow 模型儲存庫。<br/>
-![image](https://github.com/ojiver/AI/blob/main/1.jpg?raw=true)
+![image](2.png)
